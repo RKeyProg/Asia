@@ -1,0 +1,57 @@
+.about {
+    margin-bottom: 126px;
+}
+
+.about .container {
+    position: relative;
+    display: flex;
+}
+
+.about__photo {
+    width: 488px;
+    min-height: 500px;
+    border-radius: 4px;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.about__photo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about__info {
+    position: absolute;
+    top: 110px;
+    right: 0;
+    width: 780px;
+    min-height: 453px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.about__bg {
+    position: absolute;
+    height: 155%;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    object-position: -154px -79px;
+}
+
+.about__text {
+    position: absolute;
+    padding: 65px 97px;
+    color: #000;
+}
+
+.about__title {
+    margin-bottom: 28px;
+}
+
+.about__descript {
+    color: #303030;
+    line-height: 1.7em;
+    margin-bottom: 40px;
+}

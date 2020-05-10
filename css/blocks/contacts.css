@@ -1,0 +1,25 @@
+.contacts {
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__phone {
+    font-size: 26px;
+}
+
+.contacts__schedule {
+    font-size: 13px;
+    margin-left: auto;
+    text-decoration: underline;
+}
+
+.contacts__schedule:hover {
+    cursor: pointer;
+}
+
+.contacts__subscript {
+    font-size: 11px;
+    margin-left: auto;
+    color: #9a9a9a;
+}

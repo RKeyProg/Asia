@@ -1,0 +1,30 @@
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social__item {
+    margin-right: 8px;
+}
+
+.social__link {
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+
+.social__link-telegram {
+    background: url(../../img/icons/socials/telegram.png);
+}
+
+.social__link-vk {
+    background: url(../../img/icons/socials/vkontakte.png);
+}
+
+.social__link-face {
+    background: url(../../img/icons/socials/facebook.png);
+}
+
+.social__link-inst {
+    background: url(../../img/icons/socials/instagram.png);
+}

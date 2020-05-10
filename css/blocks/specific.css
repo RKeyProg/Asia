@@ -1,0 +1,17 @@
+.specific__list {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7px;
+    margin-bottom: 25px;
+}
+
+.specific__item {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    color: #666;
+}
+
+.specific__icon {
+    margin-right: 4px;
+}

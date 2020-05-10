@@ -1,0 +1,16 @@
+.section {
+    margin-bottom: 140px;
+}
+
+.section__title {
+    margin-bottom: 47px;
+}
+
+.section__title_add_icon:after {
+    content: '';
+    display: inline-block;
+    margin-left: 9px;
+    background: url('../../img/icons/flame.png') center center / cover no-repeat;
+    width: 21px;
+    height: 28px;
+}

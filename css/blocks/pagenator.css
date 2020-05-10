@@ -1,0 +1,42 @@
+.pagenator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagenator_color_dark {
+    color: #202123;
+}
+
+.pagenator__display {
+    margin-right: 25px;
+}
+
+.pagenator__list {
+    display: flex;
+}
+
+.pagenator__item {
+    color: #f4160e;
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: all .3s ease;
+    font-weight: bold;
+}
+
+.pagenator__link {
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagenator__item_active, .pagenator__item:hover {
+    background-color: #fff;
+}
+
+.pagenator_color_dark .pagenator__list .pagenator__item_active, .pagenator_color_dark .pagenator__list .pagenator__item:hover {
+    color: #fff;
+}

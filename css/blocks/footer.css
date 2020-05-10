@@ -1,0 +1,16 @@
+.footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.footer::before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    height: 1px;
+    width: 1140px;
+    background-color: #1a3038;
+    margin-bottom: 30px;
+}

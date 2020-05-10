@@ -1,0 +1,29 @@
+.btn {
+    padding: 15px 39px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    color: #fff;
+}
+
+.btn_bg_red {
+    background-color: #f5170e;
+}
+
+.btn_bg_red:hover {
+    background-color: #da0100;
+}
+
+.offers__btn {
+    border: 1px solid rgba(244, 23, 14, .4);
+    padding: 15px 28px;
+    color: #f53530;
+}
+
+.offers__btn:hover {
+    border-color: #f5170e;
+    background-color: #f5170e;
+    color: #fff;
+}

@@ -1,0 +1,10 @@
+.column {
+    width: 431px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column_content_right {
+    justify-content: flex-end;
+}
