@@ -27,13 +27,14 @@
 .pagenator__link {
     width: 32px;
     height: 32px;
+    border-radius: 50%;
     background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.pagenator__item_active, .pagenator__item:hover {
+.pagenator__item_active, .pagenator__link:hover {
     background-color: #fff;
 }
 

@@ -11,6 +11,11 @@
     display: block;
     width: 36px;
     height: 36px;
+    opacity: .2;
+}
+
+.social__link:hover {
+    opacity: 1;
 }
 
 .social__link-telegram {
