@@ -20,7 +20,6 @@
     color: #f4160e;
     border-radius: 50%;
     margin-right: 5px;
-    transition: all .3s ease;
     font-weight: bold;
 }
 
@@ -38,6 +37,7 @@
     background-color: #fff;
 }
 
-.pagenator_color_dark .pagenator__list .pagenator__item_active, .pagenator_color_dark .pagenator__list .pagenator__item:hover {
+.pagenator_bg_dark .pagenator__list .pagenator__item_active, .pagenator_bg_dark .pagenator__list .pagenator__link:hover {
     color: #fff;
+    background-color: #f5170e;
 }

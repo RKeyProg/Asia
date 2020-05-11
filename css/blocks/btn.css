@@ -15,14 +15,18 @@
     background-color: #da0100;
 }
 
-.offers__btn {
+.btn_border_red {
     border: 1px solid rgba(244, 23, 14, .4);
     padding: 15px 28px;
     color: #f53530;
 }
 
-.offers__btn:hover {
+.btn_border_red:hover {
     border-color: #f5170e;
     background-color: #f5170e;
     color: #fff;
+}
+
+.services__btn {
+    padding: 15px 40px;
 }

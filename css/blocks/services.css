@@ -1,0 +1,44 @@
+.services {
+    padding: 100px 0 92px;
+    background-color: #fff;
+    color: #000;
+}
+
+.services__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.services__item:last-child {
+    margin-bottom: 65px;
+}
+
+.services__photo {
+    width: 460px;
+    max-height: 330px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.services__photo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.services__info {
+    width: 625px;
+    padding-top: 11px;
+}
+
+.services__info-wrap h3 {
+    margin-bottom: 25px;
+}
+
+.services__info-wrap p {
+    height: 150px;
+    overflow: hidden;
+    margin-bottom: 19px;
+    line-height: 1.7em;
+}

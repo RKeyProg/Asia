@@ -1,0 +1,16 @@
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partners__item {
+    min-width: 280px;
+    margin-bottom: 75px;
+}
+
+.partners__item:nth-child(4n) {
+    text-align: end;
+}
+

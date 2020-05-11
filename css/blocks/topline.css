@@ -1,0 +1,8 @@
+.top-line {
+    background: url('../../img/bg/headline.jpg') center center / cover no-repeat;
+    padding-bottom: 25px;
+}
+
+.top-line__title {
+    margin-bottom: 92px;
+}
