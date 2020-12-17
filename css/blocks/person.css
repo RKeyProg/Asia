@@ -1,0 +1,74 @@
+.person {
+    display: flex;
+    align-items: center;
+}
+
+.person__photo {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.person__info {
+    margin-left: 25px;
+}
+
+.person__info .h4 {
+    margin-bottom: 7px;
+}
+
+.person__photo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.person__link {
+    display: flex;
+    align-items: center;
+}
+
+.person__link:hover {
+    color: #2e77a4;
+    cursor: pointer;
+}
+
+.person__title {
+    position: relative;
+}
+
+.person__title:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    height: 2px;
+    width: 0;
+    background-color: #2e77a4;
+    transition: all .3s ease;
+}
+
+.person__title:hover:before {
+    width: 100%;
+}
+
+.person__social-photo {
+    width: 32px;
+    height: 32px;
+    margin-left: 7px;
+}
+
+.person__social-photo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.person__mark {
+    display: inline-block;
+    padding: 10px 17px;
+    border-radius: 25px;
+    font-size: 13px;
+    background-color: #b9eae4;
+}
